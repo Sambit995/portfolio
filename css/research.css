@@ -1,0 +1,58 @@
+.research-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.research-item {
+    display: flex;
+    align-items: center;
+}
+
+.research-item-text {
+    flex: 1;
+    margin: 0.5rem;
+}
+
+.carousel-item img {
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.carousel-control-prev-icon {
+    height: 100% !important;
+    width: 3rem !important;
+    background-color: whitesmoke !important;
+}
+
+.carousel-control-next-icon {
+    height: 100% !important;
+    width: 3rem !important;
+    background-color: whitesmoke !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .research-item {
+        flex-direction: column;
+    }
+    .research-container {
+        max-width: 95%;
+    }
+    .carousel-inner {
+        max-height: 18rem !important;
+        min-height: 18rem !important;
+        max-width: 25rem !important;
+        min-width: 25rem !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel-inner {
+        max-height: 25rem !important;
+        min-height: 25rem !important;
+        overflow: hidden;
+        max-width: 40rem !important;
+        min-width: 40rem !important;
+    }
+}

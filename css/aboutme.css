@@ -1,0 +1,9 @@
+.aboutme-text {
+    margin: 0.5rem;
+    font-weight: 300;
+}
+
+.text-wrapper {
+    display: flex;
+    align-items: center;
+}

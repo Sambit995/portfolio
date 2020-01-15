@@ -1,0 +1,26 @@
+.people-container {
+    display: flex;
+}
+
+.people-item {
+    max-width: 33% !important;
+    max-height: 33% !important;
+}
+
+.text-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {
+    position: absolute !important;
+    bottom: 0;
+    width: 100%;
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-container {
+        position: relative !important;
+    }
+}

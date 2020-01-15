@@ -1,0 +1,67 @@
+.md-v-line {
+    position: absolute;
+    border-left: 1px solid rgba(0, 0, 0, .125);
+    height: 50px;
+    top: 0px;
+    left: 54px;
+}
+
+.facilities-items {
+    width: 100%;
+}
+
+.facilities-container {
+    display: flex;
+    align-items: center;
+}
+
+.facilities-items {
+    margin: 0.5rem;
+    flex: 1;
+}
+
+.facilities-carousel {
+    margin: 0.5rem;
+    flex: 1;
+}
+
+.carousel-control-prev-icon {
+    height: 100% !important;
+    width: 3rem !important;
+    background-color: whitesmoke !important;
+}
+
+.carousel-control-next-icon {
+    height: 100% !important;
+    width: 3rem !important;
+    background-color: whitesmoke !important;
+}
+
+.footer-container {
+    position: absolute !important;
+    bottom: 0;
+    width: 100%;
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .facilities-container {
+        flex-direction: column;
+    }
+    .carousel-inner {
+        height: 20rem !important;
+        overflow: hidden;
+        max-width: 40rem;
+    }
+    .footer-container {
+        position: relative !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel-inner {
+        min-height: 30rem !important;
+        max-height: 30rem !important;
+        overflow: hidden;
+    }
+}
