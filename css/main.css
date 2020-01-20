@@ -39,3 +39,10 @@ body {
     clear: both;
     padding: 1rem;
 }
+
+@media only screen and (max-width: 768px) {
+   body {
+       width: auto !important;
+    }
+}
+
