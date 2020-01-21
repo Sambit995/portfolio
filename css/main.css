@@ -4,7 +4,7 @@
     font-size: large;
 }
 
-body {
+.main-container {
     max-width: 85%;
     margin-right: auto;
     margin-left: auto;
@@ -41,7 +41,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-   body {
+   .main-container {
        max-width: 100% !important;
     }
 }
